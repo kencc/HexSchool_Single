@@ -1,0 +1,56 @@
+.navbar{
+  float: right;
+  @include pad{
+    /* hide navbar */
+    max-height: 0px;
+    overflow: hidden;
+    /* */ 
+    transition: max-height 1s;
+    /* 1px line on menu-top */
+    margin-top: 1px;
+    /* 絕對定位疊在網頁上 */
+    position: absolute;
+    z-index: 100;
+    /* snsbar + brand = 78px */
+    top: 78px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+  }
+}
+.nav-item{
+  float: left;
+  position: relative;
+  @include pad{
+    float: none;
+  }
+}
+.nav-link{
+  display: block;
+  color: #00cc99;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 16px 22px 14px 22px;
+  &:hover{
+    border-bottom: 3px solid #00cc99;
+  }
+  @include pad{
+    transition: all 0.1s;
+  }
+}
+.hamburger{
+  display: none;
+  float: right;
+  text-decoration: none;
+  font-size: 31px;
+  margin: 10px;
+  color: $green;
+  @include pad{
+    display: block;
+  }
+}
+.show-menu .navbar{
+  @include pad{
+    max-height: 500px
+  }
+}

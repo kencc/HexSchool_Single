@@ -1,0 +1,26 @@
+.clearfix:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.text-green{
+  color: $green;
+}
+.text-blue-fb{
+  color: $blue-fb;
+}
+.text-blue-twitter{
+  color: $blue-twitter;
+}
+.text-gray{
+  color: $gray;
+}
+.mr-20{
+  margin-right: 20px;
+}
