@@ -2,8 +2,8 @@
 
 六角學院 - jQuery 課程最終作業。
 
-網頁：https://kencc.github.io/HexSchool_Single/
-原始碼：https://github.com/kencc/HexSchool_Single
+* 網頁：https://kencc.github.io/HexSchool_Single/
+* 原始碼：https://github.com/kencc/HexSchool_Single
 
 # 內容
 
